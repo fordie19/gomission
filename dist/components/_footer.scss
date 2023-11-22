@@ -1,0 +1,27 @@
+.footer {
+    padding-top: 2rem;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin: 0 8rem;
+        gap:4rem;
+    .first__column{
+     position: absolute;
+     top: 65rem;
+     left: 15rem;
+     text-align: center;
+     padding-bottom: 10rem;
+    }
+    .first__column__text, .second__column__text, .third__column__text, .fourth__column__text {
+        line-height: 3.5rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    }
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
